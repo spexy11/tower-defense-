@@ -1,0 +1,9 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:TowerDefense.App.ViewModels"
+             x:Class="TowerDefense.App.Views.MenuView"
+             x:DataType="vm:MenuViewModel">
+  <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="15">
+    <TextBlock Text="{Binding Title}" FontSize="36" FontWeight="Bold"/>
+  </StackPanel>
+</UserControl>
