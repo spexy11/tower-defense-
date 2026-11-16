@@ -1,6 +1,6 @@
 using Avalonia.Controls;
 
-namespace TowerDefense.App;
+namespace TowerDefense.App.Views;
 
 public partial class MainWindow : Window
 {
